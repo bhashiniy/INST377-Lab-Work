@@ -26,14 +26,21 @@
     </div>
     <div class="right_section box">
     <h2> Image Carousel</h2>
-    <div class="grid">
-    <img src='images/tulip1.png' alt="Image of tulips"/>
-    <img src='images/tulip2.png' alt="Image of tulips"/>
-    <img src='images/tulip3.png' alt="Image of tulips"/>
-    <img src='images/tulip4.png' alt="Image of tulips"/><br>
+    
+    <div class="carousel">
+        <button class="prev">prev</button>
+        <div class="slides">
+        <div class="carousel_item">
+            <div class="carousel_item visible"><img id="slide_1" src='images/tulip1.png' alt="Image of tulips"/></div>
+            <div class="carousel_item hidden"><img id="slide_2" src='images/tulip2.png' alt="Image of tulips"/></div>
+            <div class="carousel_item hidden"><img id="slide_3" src='images/tulip3.png' alt="Image of tulips"/></div>
+            <div class="carousel_item hidden"><img id="slide_4" src='images/tulip4.png' alt="Image of tulips"/></div>
+        </div>
+        </div>
     </div>
+    <button class="next">next</button>
     <div class="box">
-   These 4 images contain a gif, a jpg, png and a svg file type.
+   Picture of a tulip 
    </div>
     </div>
     </div>
