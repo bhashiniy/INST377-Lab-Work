@@ -30,10 +30,10 @@ function updateSlidePosition() {
 */
 
 const images = [
-  'img/tulip1.png',
-  'img/tulip2.png',
-  'img/tulip3.png',
-  'img/tulip4.png'
+  'images/tulip1.png',
+  'images/tulip2.png',
+  'images/tulip3.png',
+  'images/tulip4.png'
 ];
 
 const firstImage = 0; 
@@ -43,13 +43,11 @@ let currentImage = 0;
 const nextBtn = document.getElementById('next'); 
 nextBtn.addEventListener('click', ()=>{
 
-  const imageTag = document.getElementById('images'); 
+  const imageTag = document.getElementById('image'); 
   currentImage++; 
   if (currentImage >= lastImage){
     currentImage= 4; 
   }
-
-
   imageTag.src = images[currentImage]; 
   document.getElementById('info').innerHTML = (currentImage +1) + '/5'; 
 
