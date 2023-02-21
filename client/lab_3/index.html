@@ -1,53 +1,60 @@
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content = "width=device-width, initial-scale=1.0" />
-    <title> Lab 3 </title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
-    <header class="header"><h1> Bhashi's Labs for INST377</h1></header>
-    <link rel="stylesheet" href="style.css">
-    <div class="container"> 
-
-
-    <div class="left_section box">
-    <h2> Album Names </h2> 
-    
-    <ol type="1">
-        <div class="box">
-      <li>Five Easy Hot Dogs - Mac Demarco</li>
-      <li>Depression Cherry - Beach House</li>
-      <li>Minecraft Volume Alpha - C418</li>
-      <li>Crybaby - Lil Peep</li>
-      <li>Be the Cowboy - Mitski</li>
+    <div>
+      <header class="header"><h1>Bhashi's Labs for INST377</h1></header>
     </div>
-    </ol> 
-    </div>
-    <div class="right_section box">
-    <h2> Image Carousel</h2>
-    
-    <div class="carousel">
-        <button class="prev">prev</button>
-        <div class="slides">
-        <div class="carousel_item">
-            <div class="carousel_item visible"><img id="slide_1" src='images/tulip1.png' alt="Image of tulips"/></div>
-            <div class="carousel_item hidden"><img id="slide_2" src='images/tulip2.png' alt="Image of tulips"/></div>
-            <div class="carousel_item hidden"><img id="slide_3" src='images/tulip3.png' alt="Image of tulips"/></div>
-            <div class="carousel_item hidden"><img id="slide_4" src='images/tulip4.png' alt="Image of tulips"/></div>
+    <div class="container">
+      <div class="left_section box">
+        <h2>Album Names</h2>
+
+        <ol type="1">
+          <div class="box">
+            <li>Five Easy Hot Dogs - Mac Demarco</li>
+            <li>Depression Cherry - Beach House</li>
+            <li>Minecraft Volume Alpha - C418</li>
+            <li>Crybaby - Lil Peep</li>
+            <li>Be the Cowboy - Mitski</li>
+          </div>
+        </ol>
+      </div>
+      <div class="right_section box">
+        <div>
+        <h2>Image Carousel</h2>
         </div>
+
+        <div class="container">
+            
+            <div class="buttons">
+                
+                <button class="prev" id="prev">Prev</button>
+                <img src="images/tulip1.png" alt = "slide " class="Image" id="Image" width="160" height="160">
+                <button class="next" id="next">Next</button>
+                
+
+
+
+            </div>
+
         </div>
+        <br>
+        <div class="box">Picture of a tulip</div>
+
+      </div>
+      
     </div>
-    <button class="next">next</button>
-    <div class="box">
-   Picture of a tulip 
-   </div>
-    </div>
-    </div>
+    
     <footer class="footer">
-        YOUR GITHUB NAME <a href="https://github.com/bhashiniy">Your Github Account</a>
+      YOUR GITHUB NAME
+      <a href="https://github.com/bhashiniy">Your Github Account</a>
     </footer>
 
-    <script src="script.js" ></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

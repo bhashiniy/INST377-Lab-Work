@@ -255,6 +255,13 @@ div.carousel {
   border: 2px solid rgb(99,99,99); /* shorthand for how to do a border */
 }
 
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
 .prev:focus,
 .next:focus {
   margin: 0;
