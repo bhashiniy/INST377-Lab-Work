@@ -33,7 +33,8 @@ const images = [
   'images/tulip1.png',
   'images/tulip2.png',
   'images/tulip3.png',
-  'images/tulip4.png'
+  'images/tulip4.png',
+  'images/tulip5.png'
 ];
 
 const firstImage = 0; 
