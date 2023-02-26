@@ -43,7 +43,7 @@ h2,
 h3 {
   margin: 0;
   padding: 0;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.01rem;
 }
 
 form {
@@ -56,12 +56,18 @@ form {
   - like this: <div class="wrapper">
   - note that the period vanishes there!
 
-*/
+
 div {
   border: 2px dashed rgba(0, 0, 0, 0.8);
 }
 
+*/
 
+h1{
+  border-style: dashed;
+  border-width: 3px;
+
+}
 
 .wrapper {
   min-height: 100vh;
@@ -77,13 +83,12 @@ div {
   justify-content: space-evenly;
   align-items: start;
   flex: 1;
+
 }
 
 .header {
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1.5rem;
+  
+  padding-bottom: 1rem;
 
 }
 
@@ -103,7 +108,7 @@ div {
 
   /* shapes */
   border-radius: 6px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 1.25rem;
   margin: 0; /* removing the margin on h1 tags means the header pins to the top if we move */
 
@@ -143,10 +148,11 @@ div {
   flex: 1 2 auto;
   margin: 1rem;
   align-items: center;
-  max-width: 450px;
+  max-width: 900px;
   justify-content: center;
   display: flex;
   flex-flow: column;
+
 }
 
 /*
@@ -157,15 +163,21 @@ div {
 
 .footer {
   flex-shrink: 0;
-  padding: 1rem;
+  padding: 3px;
   background-color: rgba(0, 139, 139, 0.8);
-  font-size: 1.2rem;
   font-weight: 600;
+  border: dashed 2px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  padding: 1.25rem;
+  margin: 0;
+
 }
 
 .footer a {
   color: rgba(255, 224, 138, 1);
   text-decoration: underline;
+
 }
 
 /*
