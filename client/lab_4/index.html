@@ -8,26 +8,37 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
-        <h1>Bhashi's Labs For INST377</h1>
-      </header>
+      <header class="header"><h1>Bhashi's Labs For INST377</h1></header>
+      
       <div class="container">
+        
         <div class="left_section box">
-          <h3>Form Inputs<br><br></h3>
-          <form action="/api" class="box">
-            <label for="resto">Restaurant Name</label>
-            <input type="text" id="resto" />
+          
+            <h2>Form Inputs</h2>
+            
+            <form action="https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json" class="box">
+                <div>
+                    <label for="resto">Restaurant Name</label>
+                    <input type="text" id="resto" />
+
+                </div>
+            
             <button type="submit">Submit</button>
           </form>
         </div>
         <div class="right_section box">
-          <h3>Local Restaurants<br><br></h3>
-          <div class="restaurant_list box">A list of local restaurants</div>
+          <h2>Local Restaurants</h2>
+          <div class="box" id="restaurant_list">
+            
+            A list of local restaurants
+        </div>
         </div>
       </div>
-      <div class="bottom"><br></div>
-      <div class="footer">
-        <footer> Github Account <a href="https://github.com/bhashiniy/INST377-Lab-Work">Bhashi's Github</a><footer>
+
+      <footer class="footer">
+        Your Github Account
+        <a href="https://github.com/bhashiniy/INST377-Lab-Work">Bhashi's Github</a>
+      </footer>
       </div>
     </div>
   </body>
